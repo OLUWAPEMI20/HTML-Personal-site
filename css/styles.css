@@ -1,62 +1,107 @@
 body {
   margin: 0%;
   font-family:Merriweather, serif;
-  font-size: 20px;
+  font-size: 30px;
+  
 }
 
 .top-container{
 
-    background-color: rgb(38, 231, 38);
-    height: 600px;
+      background-color: rgb(62, 224, 62);
+   
+    height: 900px;
    
     position: relative;
-     padding-top: 200px;
+     padding-top: 300px;
   }
- 
-  
 
-hr {
-      
-    border-style: none; 
-    border-top: dotted;
-    border-width :5px;
-    border-color: grey;
-    height: 0 px;
-    width: 5%;
-   
-    }
+  .greenbox{
+    background-color:  rgb(62, 224, 62);
+    height: 500px;
+    width: 1000px;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 20px;
+    border: 30px;
+    margin: auto;
+    margin-top: 300px;
+    margin-bottom:500px;
+    overflow-wrap: break-word;
+    font-size: 20px;
+    
+  }
+  
+  h2{
+    font-family:Merriweather, serif; 
+  }
+
+ 
+
 
     h1 {
-      font-size:80px;
+      font-size:9rem;
         color:black;
         width: 10%;
-        margin:auto ;
-        right: 700px;
+        margin: auto ;
+        right: 900px;
         position: relative;
+        
         white-space: nowrap;
         top:100px;
     }
+
+    
+    h2{
+      margin-left: 10px;
+    }
+    
     h3{
-      font-size: 80px;
-      background-color:rgb(38, 231, 38);
-      width:10%;
-       margin: auto;
-       white-space: nowrap;
-      position: relative;
-      right:700px;
+      font-size:6rem;
+      color: black;
+      width: 50%;
+       margin: 0 auto ;
+      font-weight: 400;
+       position: relative;
+      right:400px;
       top:120px;
+      display: inline block;
+    }
+
+    p{
+      font-family:Merriweather, serif; 
+    font-size: 40px;
+    color: black;
     }
 
    
 
   
-    .middle-container {
-
-
+    .skills{
+      font-family:Merriweather, serif; 
+ 
+      background-color: rgb(62, 224, 62);
+   
+    height: 1000px;
+   
+    position: relative;
+     padding-top: 200px;
     }
 
-    .bottom-container{
+    .contact-me{
 
 
+      background-color: white;
+   
+    height: 1000px;
+   
+    position: relative;
+     padding-top: 200px;
     }
+
+  .hello{
+    font-family:Merriweather, serif; 
+  }
     
+
+ 
+  
