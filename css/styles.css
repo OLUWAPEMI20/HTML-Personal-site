@@ -46,6 +46,7 @@ body {
     width: 100%;
    position: relative;
 
+
      }
     img{
       width: 100%;
@@ -55,15 +56,6 @@ body {
     }
 
   
-  
-  
-  h2{
-    font-family:Merriweather, serif; 
-  }
-
- 
-
-
     h1 {
       font-size:14rem;
         color:black;
@@ -78,39 +70,66 @@ body {
        
     }
 
+  
+  
+  h2{
+    font-family:Merriweather, serif; 
+    text-align: center;
+    vertical-align: text-top;  
+    text-indent: 900px;
+  }
 
-    
-    h2{
-      margin-left: 10px;
-    }
+ 
+
+
+
+   
     
     h3{
       font-size:11rem;
+      margin: 0px;
       color: black;
+      padding-left: 70px;
       width: 50%;
       display: block;
       font-weight: 400;
        position: relative;
       left:5%
+      
+      
      
     }
 
     p{
       font-family:Merriweather, serif; 
-    font-size: 120px;
+    font-size: 100px;
     color: black;
     }
 
     .skills{
-      left: 600px;
-      top: 700px;
-     position: absolute;
+      left: 200px;
+      top: 600px;
+     position: relative;
       height:1000px;
-      width:1600px;
+      width: 1200px;
       background-color:  rgb(62, 224, 62);
-      font-size: 40rem;
-      padding-left: 200px;
+      margin: 0;
      
+      
+     
+    }
+
+    .text{
+    
+      text-align:right;
+    vertical-align: text-top;  
+    text-indent: 1700px;
+      font-size:4rem;
+    
+
+     
+    
+   
     }
   
    
@@ -118,27 +137,38 @@ body {
   
     .container{
       font-family:Merriweather, serif; 
-      margin:auto;
-  background-color:whitesmoke
-    top: 0px;
-    height: 1500px;
-    padding: 300px;
-   position: relative;
-        }
-
-
-    .contact-me{
- background-color:  rgb(62, 224, 62);;
-   height: 1000px;
-   position: relative;
-     padding-top: 200px;
-    }
-
-
-  .hello{
-    font-family:Merriweather, serif; 
-  }
     
+  background-color:whitesmoke;
+  text-align: left;
+    height: 1500px;
+    margin:0px;
+    padding: 800px;
+   
+
 
  
   
+  
+        }
+
+
+   
+.hello{
+    background-color:rgb(62, 224, 62);
+   height: 1200px;
+   padding:400px;
+   margin:0px;
+  }
+
+ 
+  .contact-me{
+    background-color: whitesmoke;
+       padding: 400px;
+      margin: 0;
+       }
+
+    
+      
+
+    
+    
