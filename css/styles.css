@@ -65,6 +65,7 @@ li a:hover {
      padding-top: 1000px;
      padding-bottom: 900px;
      margin:auto
+<<<<<<< HEAD
   
   }
 
@@ -129,12 +130,80 @@ li a:hover {
     text-align: center;
     vertical-align: text-top;  
     text-indent: 900px;
+=======
+  
+>>>>>>> 9e22a3e5bc26750cb8dc0b904b25c882c826e89a
+  }
+
+ 
+
+
+<<<<<<< HEAD
+
+=======
+
+  .whitebox{
+    background-color:  whitesmoke;
+    height: 600px;
+    width: 2500px;
+    position: absolute;
+    padding-top: 9.5%;
+    padding-bottom:20%;
+    padding-right: 9.5%;
+    padding-left: 9.5%;
+
+  font-size: 50rem;
+    margin: auto;
+    top: 20%;
+    left: 10%;
+    right: 90px;
+    text-align: center;
+   
+    
+  }
+
+  .image{
+    width: 100%;
+   position: relative;
+
+
+     }
+    img{
+      width: 100%;
+      height: auto;
+      display: block;
+      
+    }
+
+  
+    h1 {
+      font-size:14rem;
+        color:black;
+        width: 10%;
+        
+        position: relative;
+        
+         top:80px;
+         left:5%;
+        white-space: nowrap;
+   
+       
+    }
+
+  
+  
+  h2{
+    font-family:Merriweather, serif; 
+    text-align: center;
+    vertical-align: text-top;  
+    text-indent: 900px;
   }
 
  
 
 
 
+>>>>>>> 9e22a3e5bc26750cb8dc0b904b25c882c826e89a
    
     
     h3{
