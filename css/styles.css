@@ -2,7 +2,7 @@
 
   
 
-/* Default styles for larger screens */
+
 body {
   margin: 0%;
   font-family: Merriweather, serif;
@@ -181,39 +181,37 @@ p {
   margin: 10px;
 }
 
-/* Media query for smaller screens */
+
 @media screen and (max-width: 768px) {
   .heading {
-    font-size: 10rem; /* Adjust font size for smaller screens */
-    padding-left: 100px; /* Adjust padding for smaller screens */
+    font-size: 10rem; 
+    padding-left: 100px; 
   }
 
   .top-container img {
-    width: 100%; /* Make the image responsive */
-    margin-right: 0; /* Remove margin for smaller screens */
+    width: 100%;
+    margin-right: 0; 
   }
 
   .hireme-btn {
-    padding: 50px 150px; /* Adjust padding for smaller screens */
-    font-size: 3rem; /* Adjust font size for smaller screens */
-  }
+    padding: 50px 150px; 
+    font-size: 3rem; 
 
   .middle-container {
-    height: auto; /* Make the container height auto for smaller screens */
+    height: auto; 
   }
 
   .whitebox {
-    top: 120%; /* Adjust top position for smaller screens */
-    width: 90%; /* Adjust width for smaller screens */
-    max-width: 100%; /* Set max-width to 100% for smaller screens */
-    padding: 20px; /* Adjust padding for smaller screens */
+    top: 120%;
+    width: 90%;
+    max-width: 100%; 
+    padding: 20px;
   }
 
   h2 {
-    text-indent: 0; /* Remove text-indent for smaller screens */
-  }
+    text-indent: 0;
 
   .text {
-    text-indent: 0; /* Remove text-indent for smaller screens */
-  }
+    text-indent: 0;
 }
+  
