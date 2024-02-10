@@ -181,16 +181,15 @@ p {
   margin: 10px;
 }
 
-
+/* Media query for smaller screens */
 @media screen and (max-width: 768px) {
   .heading {
     font-size: 10rem; 
     padding-left: 100px; 
   }
 
-
   .top-container img {
-    width: 100%;
+    width: 100%; 
     margin-right: 0; 
   }
 
@@ -200,20 +199,5 @@ p {
   }
 
   .middle-container {
-    height: auto; 
+    height: auto; }
   }
-
-  .whitebox {
-    top: 120%;
-    width: 90%;
-    max-width: 100%; 
-    padding: 20px;
-  }
-
-  h2 {
-    text-indent: 0;
-  }
-  .text {
-    text-indent: 0;
-}
-}
