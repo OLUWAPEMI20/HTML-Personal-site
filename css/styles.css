@@ -188,6 +188,7 @@ p {
     padding-left: 100px; 
   }
 
+
   .top-container img {
     width: 100%;
     margin-right: 0; 
@@ -196,6 +197,7 @@ p {
   .hireme-btn {
     padding: 50px 150px; 
     font-size: 3rem; 
+  }
 
   .middle-container {
     height: auto; 
@@ -210,10 +212,8 @@ p {
 
   h2 {
     text-indent: 0;
-
+  }
   .text {
     text-indent: 0;
 }
-}
-  }
 }
