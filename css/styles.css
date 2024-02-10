@@ -1,17 +1,13 @@
 
-
-  
-
-
 body {
-  margin: 0%;
+  margin: 0;
   font-family: Merriweather, serif;
-  font-size: 80px;
+  font-size: 16px;
 }
 
 .title {
   font-family: "Montserrat-Black";
-  font-size: 9rem;
+  font-size: 2rem;
   color: black;
 }
 
@@ -24,19 +20,19 @@ nav {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 2%;
+  padding: 0;
   text-align: center;
 }
 
 li {
   display: inline;
-  margin-left: 400px;
+  margin-left: 20px;
 }
 
 a {
   text-decoration: none;
   color: black;
-  font-size: 5rem;
+  font-size: 1.5rem;
 }
 
 a:hover {
@@ -46,158 +42,62 @@ a:hover {
 .top-container {
   background-color: rgb(29, 236, 29);
   display: flex;
-  padding-top: 10%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 }
 
 .heading {
-  text-align: left;
-  font-size: 15rem;
-  padding-left: 300px;
+  font-size: 4rem;
 }
 
 .top-container img {
-  width: 2500px;
+  max-width: 100%;
   height: auto;
-  margin-right: 900px;
 }
 
 .hireme-btn {
-  display: inline-block;
-  text-decoration: none;
-  color: black;
-  border: 1px solid green;
-  padding: 100px 300px;
-  font-size: 4rem;
-}
-
-h2 {
-  font-family: Merriweather, serif;
-  text-align: center;
-  vertical-align: text-top;
-  text-indent: 900px;
-}
-
-.middle-container {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
+  padding: 10px 20px;
+  font-size: 1.5rem;
 }
 
 .middle-container img {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
 }
 
 .whitebox {
-  position: absolute;
-  top: 180%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 1600px;
-  width: 500%;
-  max-width: 3500px;
-  padding: 50px;
+  padding: 20px;
   background-color: rgba(255, 255, 255, 0.9);
   border: 2px solid #fff;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .whitebox h1 {
-  font-size: 4rem;
+  font-size: 2rem;
   color: rgb(16, 238, 16);
 }
 
 .whitebox p {
-  font-size: 6rem;
+  font-size: 1.5rem;
 }
 
-h3 {
-  font-size: 11rem;
-  margin: 0px;
-  color: black;
-  padding-left: 70px;
-  width: 50%;
-  display: block;
-  font-weight: 400;
-  position: relative;
-  left: 5%;
-}
-
-p {
-  font-family: Merriweather, serif;
-  font-size: 4rem;
-  color: black;
-}
-
-.skills {
-  left: 200px;
-  top: 600px;
-  position: relative;
-  height: 1000px;
-  width: 1200px;
-  background-color: rgb(62, 224, 62);
-  margin: 0;
-}
-
-.text {
-  text-align: right;
-  vertical-align: text-top;
-  text-indent: 1700px;
-  font-size: 4rem;
-}
-
-.hello {
-  background-color: rgb(62, 224, 62);
-  height: 1200px;
-  padding: 400px;
-  margin: 0px;
-}
-
-.contact-me {
-  background-color: whitesmoke;
-  padding: 400px;
-  margin: 0;
-}
-
-.bottom-container {
-  background-color: black;
-  color: white;
-  text-align: center;
-  padding: 20px;
-}
-
-.footer-link {
-  color: white;
-  text-decoration: none;
-  margin: 10px;
-}
-
-/* Media query for smaller screens */
+/* Media queries for responsiveness */
 @media screen and (max-width: 768px) {
   .heading {
-    font-size: 10rem; 
-    padding-left: 100px; 
-  }
-
-  .top-container img {
-    width: 100%; 
-    margin-right: 0; 
+    font-size: 3rem;
   }
 
   .hireme-btn {
-    padding: 50px 150px; 
-    font-size: 3rem; 
+    padding: 8px 16px;
+    font-size: 1.2rem;
   }
 
-  .middle-container {
-    height: auto; }
+  .whitebox {
+    max-width: 90%;
+    margin: 20px auto;
   }
+}
+  
+
+
