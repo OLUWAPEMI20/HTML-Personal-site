@@ -2,30 +2,24 @@
 
   
 
+/* Default styles for larger screens */
 body {
   margin: 0%;
-  font-family:Merriweather, serif;
+  font-family: Merriweather, serif;
   font-size: 80px;
-  
 }
 
-.title{
-
-  
+.title {
   font-family: "Montserrat-Black";
-  font-size:9rem;
-   color: black;
-   
+  font-size: 9rem;
+  color: black;
 }
-
-
 
 nav {
-  background-color:rgb(101, 255, 101);
+  background-color: rgb(101, 255, 101);
   color: black;
   margin-right: 20px;
 }
-
 
 ul {
   list-style-type: none;
@@ -36,119 +30,88 @@ ul {
 
 li {
   display: inline;
-  margin-left:400px;
+  margin-left: 400px;
 }
 
 a {
   text-decoration: none;
   color: black;
   font-size: 5rem;
-
 }
 
 a:hover {
   text-decoration: underline;
 }
 
-
-
-
-.top-container{
-  background-color:rgb(29, 236, 29);
- display: flex;
- padding-top: 10%;
+.top-container {
+  background-color: rgb(29, 236, 29);
+  display: flex;
+  padding-top: 10%;
 }
 
-
-
-
- .heading {
+.heading {
   text-align: left;
- 
- 
-    font-size: 15rem;
-    padding-left:300px;
-  }
-  
-
+  font-size: 15rem;
+  padding-left: 300px;
+}
 
 .top-container img {
-  width: 2500px; 
+  width: 2500px;
   height: auto;
-  margin-right:900px;
+  margin-right: 900px;
 }
 
+.hireme-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  border: 1px solid green;
+  padding: 100px 300px;
+  font-size: 4rem;
+}
 
-  
- 
-  
-  
-    h1 {
-      font-size:20rem;
-        color:black;
-   
-       
-    }
+h2 {
+  font-family: Merriweather, serif;
+  text-align: center;
+  vertical-align: text-top;
+  text-indent: 900px;
+}
 
-  .hireme-btn {
+.middle-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
 
-    display: inline-block;
-    text-decoration: none;
-    color:black;
-    border: 1px solid green;
-    padding: 100px 300px;
-    font-size: 4rem;
-    
-
-  }
-  
-  h2{
-    font-family:Merriweather, serif; 
-    text-align: center;
-    vertical-align: text-top;  
-    text-indent: 900px;
-  }
-
- 
-  .middle-container{
-    position: relative; 
-    width: 100%; 
-    height: 100vh; 
-    overflow: hidden;
-  }
-
-.middle-container img{
-
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  width: 100%; 
-  height: 100%; 
+.middle-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
-   
-    
-.whitebox{
+
+.whitebox {
   position: absolute;
-    top: 180%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-   height: 1600px;
-    width: 500%; /* Adjust the width of the square box */
-    max-width: 3500px; /* Set a maximum width for responsiveness */
-    padding: 50px; /* Add padding inside the square box */
-    background-color: rgba(255, 255, 255, 0.9);
-    border: 2px solid #fff;
-    text-align: center;
-
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center;
-
+  top: 180%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 1600px;
+  width: 500%;
+  max-width: 3500px;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 2px solid #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.whitebox h1{
+.whitebox h1 {
   font-size: 4rem;
   color: rgb(16, 238, 16);
 }
@@ -157,77 +120,67 @@ a:hover {
   font-size: 6rem;
 }
 
-    h3{
-      font-size:11rem;
-      margin: 0px;
-      color: black;
-      padding-left: 70px;
-      width: 50%;
-      display: block;
-      font-weight: 400;
-       position: relative;
-      left:5%
-      
-      
-     
-    }
+h3 {
+  font-size: 11rem;
+  margin: 0px;
+  color: black;
+  padding-left: 70px;
+  width: 50%;
+  display: block;
+  font-weight: 400;
+  position: relative;
+  left: 5%;
+}
 
-    p{
-      font-family:Merriweather, serif; 
-    font-size: 4rem;
-    color: black;
-    }
+p {
+  font-family: Merriweather, serif;
+  font-size: 4rem;
+  color: black;
+}
 
-    .skills{
-      left: 200px;
-      top: 600px;
-     position: relative;
-      height:1000px;
-      width: 1200px;
-      background-color:  rgb(62, 224, 62);
-      margin: 0;
-     
-      
-     
-    }
+.skills {
+  left: 200px;
+  top: 600px;
+  position: relative;
+  height: 1000px;
+  width: 1200px;
+  background-color: rgb(62, 224, 62);
+  margin: 0;
+}
 
-    .text{
-    
-      text-align:right;
-    vertical-align: text-top;  
-    text-indent: 1700px;
-      font-size:4rem;
-    
+.text {
+  text-align: right;
+  vertical-align: text-top;
+  text-indent: 1700px;
+  font-size: 4rem;
+}
 
-     
-    
-   
-    }
-  
-   
+.hello {
+  background-color: rgb(62, 224, 62);
+  height: 1200px;
+  padding: 400px;
+  margin: 0px;
+}
 
-  
-   
- 
+.contact-me {
+  background-color: whitesmoke;
+  padding: 400px;
+  margin: 0;
+}
 
+.bottom-container {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
 
-   
-.hello{
-    background-color:rgb(62, 224, 62);
-   height: 1200px;
-   padding:400px;
-   margin:0px;
-  }
+.footer-link {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
 
- 
-  .contact-me{
-    background-color: whitesmoke;
-       padding: 400px;
-      margin: 0;
-       }
-
-    
-      
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
   .heading {
@@ -264,5 +217,3 @@ a:hover {
     text-indent: 0; /* Remove text-indent for smaller screens */
   }
 }
-    
-    
