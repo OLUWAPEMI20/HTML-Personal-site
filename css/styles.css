@@ -1,5 +1,7 @@
 
 
+  
+
 body {
   margin: 0%;
   font-family:Merriweather, serif;
@@ -226,6 +228,41 @@ a:hover {
 
     
       
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 10rem; /* Adjust font size for smaller screens */
+    padding-left: 100px; /* Adjust padding for smaller screens */
+  }
 
+  .top-container img {
+    width: 100%; /* Make the image responsive */
+    margin-right: 0; /* Remove margin for smaller screens */
+  }
+
+  .hireme-btn {
+    padding: 50px 150px; /* Adjust padding for smaller screens */
+    font-size: 3rem; /* Adjust font size for smaller screens */
+  }
+
+  .middle-container {
+    height: auto; /* Make the container height auto for smaller screens */
+  }
+
+  .whitebox {
+    top: 120%; /* Adjust top position for smaller screens */
+    width: 90%; /* Adjust width for smaller screens */
+    max-width: 100%; /* Set max-width to 100% for smaller screens */
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  h2 {
+    text-indent: 0; /* Remove text-indent for smaller screens */
+  }
+
+  .text {
+    text-indent: 0; /* Remove text-indent for smaller screens */
+  }
+}
     
     
