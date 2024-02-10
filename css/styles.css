@@ -1,108 +1,133 @@
 
+
+
 body {
-  margin: 0;
   font-family: Merriweather, serif;
-  font-size: 16px;
+  margin: 0%;
 }
 
-.title {
-  font-family: "Montserrat-Black";
+
+.navbar {
+  background-color: rgba(101, 255, 101, 0.9);
+  padding: 40px 40px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.logo {
   font-size: 2rem;
   color: black;
 }
 
-nav {
-  background-color: rgb(101, 255, 101);
-  color: black;
-  text-align: right; /* Align navbar to the right */
-  padding: 20px;
+.navbar-toggle {
+  display: none; /* Hide toggle button by default */
 }
 
-ul {
+
+
+
+.navbar-menu {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 2%;
   text-align: center;
 }
 
-li {
-  display: inline;
-  margin-left: 20px;
-}
-
-a {
+a:hover{
   text-decoration: none;
   color: black;
-  font-size: 1.5rem;
+  
+
 }
 
-a:hover {
-  text-decoration: underline;
+
+.navbar-menu li {
+  margin-left: 150px;
+  display: inline;
+ font-size: 2rem;
+}
+  
+
+
+.navbar-menu a {
+  text-decoration: none;
+  color: black;
+  
+}
+
+
+.top-section {
+  position: relative;
+
 }
 
 .top-container {
-  background-color: rgb(29, 236, 29);
-  padding: 20px;
-  text-align: center;
+  background-color: rgba(29, 236, 29, 0.9);
   display: flex;
-  justify-content: space-between; /* Align items to left and right */
+  
+  
   align-items: center;
 }
 
 .heading {
-  font-size: 4rem;
-  margin-right: 20px; /* Add space between h1 and image */
+ text-align: left;
+}
+
+.heading h1 {
+  margin:20px;
+  font-size: 7rem;
+}
+
+.hireme-btn {
+  display: inline-block;
+  text-decoration: none;
+  color:black;
+  border: 2px solid green;
+  padding: 50px 150px;
+  font-size: 2rem;
+  margin-top:80px;
+    margin-left:60px
+   
+}
+
+.profile-pic {
+  max-width: 100%;
+  height: auto;
+  margin-left:100px;
 }
 
 .top-container img {
   max-width: 100%;
   height: auto;
+  margin-top: 20px;
 }
 
-.hireme-btn {
-  padding: 10px 20px;
-  font-size: 1.5rem;
-  background-color: #fff;
-  color: green;
-  border: 2px solid green;
-  text-decoration: none;
-}
 
-.middle-container {
+.middle-section {
+  
   position: relative;
+  width: 100%;
+  
+  
+}
+
+.middle-section img {
+  display:block; 
+  width: 100%;
+  
+  object-fit:cover;
 }
 
 .whitebox {
-  position: absolute;
-  top: 50%; /* Position box in the middle */
-  left: 50%;
-  transform: translate(-50%, -50%);
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.9);
   border: 2px solid #fff;
   text-align: center;
+  width
 }
-
-.whitebox h1 {
-  font-size: 2rem;
-  color: rgb(16, 238, 16);
-}
-
-.whitebox p {
-  font-size: 1.5rem;
-}
-
-/* Media queries for responsiveness */
-@media screen and (max-width: 768px) {
-  .heading {
-    font-size: 3rem;
-    margin-right: 0; /* Remove margin for smaller screens */
-  }
-
-  .hireme-btn {
-    padding: 8px 16px;
-    font-size: 1.2rem;
-  }
-}
-
 
