@@ -15,7 +15,7 @@ body {
 }
 
 .navbar-toggle {
-  display: none; /* Hide toggle button by default */
+  display: none; 
 }
 
 @media (max-width: 400px) { 
@@ -27,12 +27,12 @@ body {
   }
 
   .navbar-menu li {
-    margin-left: 50px; /* Adjusted margin for list items on smaller screens */
-    font-size: 16px; /* Font size for list items on smaller screens */
+    margin-left: 50px; 
+    font-size: 16px; 
   }
 
   body {
-    font-size: 16px; /* Font size for screens with a maximum width of 400px */
+    font-size: 16px; 
   }
 }
 
@@ -83,19 +83,25 @@ a:hover{
   margin-left: 60px;
 }
 
+.profile-container{
+  padding: 20px; 
+  background-color: rgba(101, 255, 101, 0.9)
+  
+}
+
 .profile-pic {
   max-width: 100%;
   height: auto;
-  margin-left: 20px; /* Adjusted margin for smaller screens */
-}
+  margin-left: 20px; 
 
 @media (max-width: 400px) {
   .top-container {
     flex-direction: column;
     align-items: flex-start;
   }
+}
 
   .heading {
-    margin-left: 20px; /* Adjusted margin for smaller screens */
+    margin-left: 20px; 
   }
 }
